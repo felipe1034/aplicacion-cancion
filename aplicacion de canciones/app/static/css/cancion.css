@@ -1,0 +1,61 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+      backdrop-filter: (10px);
+      background-color: #591C21;
+      background-image: url(https://hips.hearstapps.com/hmg-prod/images/rear-view-of-man-walking-in-forest-royalty-free-image-1660727971.jpg);
+      background-repeat: no-repeat;
+      background-size: 80%;
+    } 
+
+    h1{
+      color: rgb(255, 255, 255);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding: 100px;
+    }
+    
+    .canciones{
+    width: 600px;
+    height: 960;
+    background-color: #044040;
+    background-image: url(https://wallpapers.com/images/hd/slender-tree-trunks-dark-forest-ambyar228kb1f0ql.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(254, 254, 254);
+    text-align: center;  
+    float: right;
+    }
+    .controls{
+    width: 100%;
+    background:  #fff8f9;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+    border: 1px solid 'calibri';
+    font-family: 'calibri'
+    }
+    .controlss{
+      padding: 20px;
+      background: #ffffff;
+      color: rgb(255, 255, 255);
+      margin: 20px;
+      border-radius: 10px;
+      background-color: #000000;
+    }
+    button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px;
+    color:white;
+    margin: 1px;
+    font-size: 16px;
+    }

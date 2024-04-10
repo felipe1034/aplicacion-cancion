@@ -1,0 +1,48 @@
+*{
+margin : 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  backdrop-filter: blue(10px);
+  background-color: rgb(216, 216, 236);
+
+} 
+
+h1{
+  color: rgb(255, 255, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.regis{
+width: 400px;
+background-image: url(https://cms-assets.tutsplus.com/cdn-cgi/image/width=360/uploads/users/30/posts/32533/preview_image/pre.jpg);
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(254, 254, 254);
+text-align: center;  
+}
+.controls{
+width: 100%;
+background:  #fff8f9;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: 1px solid 'calibri';
+font-family: 'calibri'
+}
+
+button{
+width: 100%;
+background-color: rgb(0, 0, 0);
+border: none;
+padding: 12px;
+color:white;
+margin: 1px;
+font-size: 16px;
+}

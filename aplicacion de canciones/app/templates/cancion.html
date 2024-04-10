@@ -1,0 +1,45 @@
+<DOCTYPE html>
+    <html lang="es">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/css/cancion.css">
+      </head>
+      <body>
+      <div class="container">
+        <form class='canciones' method="POST" enctype ="multipart/form-data">
+          <div class="img">
+            
+          </div>
+            <h1>REGISTRAR</h1>
+                <div class="yorindel">
+                  <label for="titulo"></label>
+                  <input class="controls" type ="text" name="txttitulo" id = "usuario" placeholder="dijita el titulo" requeried name = "titulo">
+                </div> 
+                <div class="yorindel">
+                  <label for="artista"></label>
+                  <input class="controls" type ="text" name="txtartista" id = "artista" placeholder="dijita el artista" requeried name = "artista">
+                </div>
+                <div class="yorindel">
+                    <label for="genero"></label>
+                    <input class="controls" type ="text" name="txtgenero" id = "genero" placeholder="dijita el genero" requeried name = "genero">
+                </div>
+                <div class="yorindel">
+                    <label for="precio"></label>
+                    <input class="controls" type ="decimal" name="txtprecio" id = "precio" placeholder="dijita el precio" requeried name = "precio">
+                </div>
+                <div class="yorindel">
+                    <label for="duracion"></label>
+                    <input class="controls" type ="number" name="txtduracion" id = "duracion" placeholder="dijita la duracion" requeried name = "duracion">
+                </div>
+                <div class="yorindel">
+                    <label for="año_lanzamiento"></label>
+                    <input class="controls" type ="date" name="txtaño_lanzamiento" id = "año_lnzamiento" placeholder="dijita el año de lanzamiento" requeried name = "año_lanzamiento">
+                </div>
+                <div class="yorindel">
+                  <label for="img"></label>
+                  <input class="controlss" type ="file" name="txtimagen" id = "imagen" placeholder="" requeried name = "imagen">
+              </div>
+                <button type="submit"> registrar </button>
+        </form>
+</html>
